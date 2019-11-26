@@ -1,0 +1,4 @@
+{
+  "regularExpressions": ["^test\/.*"],
+  "msgRegexNotMatched": "Pushing to \"%s\" is not allowed, Allowed regex pattern is /%s/"
+}

@@ -1,0 +1,5 @@
+{
+  "maxSections": 2,
+  "separator": "/",
+  "msgSeperatorRequired": "Branch name \"%s\" is not allowed\nAllowed max section length is %s"
+}

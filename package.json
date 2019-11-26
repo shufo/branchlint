@@ -1,0 +1,43 @@
+{
+  "name": "branchlint",
+  "version": "0.0.1",
+  "description": "A branch name linter",
+  "main": "src/cli.js",
+  "bin": {
+    "branchlint": "bin/branchlint"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src -c .eslintrc.json --ext js",
+    "format": "prettier {src,__{tests,mocks}__}/**/*.js --write",
+    "check_formatted": "prettier **/*.js -c",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "author": "Shuhei Hayashibara",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "chalk": "^3.0.0",
+    "cosmiconfig": "^6.0.0",
+    "esm": "^3.2.25",
+    "git-branch-is": "^3.0.0",
+    "lodash": "^4.17.15",
+    "sprintf-js": "^1.1.2",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-jest": "^24.9.0",
+    "concat-stream": "^2.0.0",
+    "conventional-changelog": "^3.1.15",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.0"
+  }
+}

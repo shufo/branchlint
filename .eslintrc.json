@@ -1,0 +1,23 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "max-len": ["error", 80]
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*.js"],
+      "rules": {
+        "max-lines-per-function": ["error", 24]
+      }
+    }
+  ],
+  "env": {
+    "browser": false,
+    "jest": true
+  },
+  "globals": {
+    "__basedir": "readonly"
+  }
+}

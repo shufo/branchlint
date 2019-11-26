@@ -1,0 +1,4 @@
+{
+  "prefixes": ["feature", "fix", "hotfix", "release"],
+  "msgPrefixNotAllowed": "Branch name \"%s\" is not allowed.\nAllowed branch name prefix is %s and separator is \"%s\""
+}

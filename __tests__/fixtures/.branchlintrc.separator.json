@@ -1,0 +1,4 @@
+{
+  "separator": ["/"],
+  "msgSeperatorRequired": "Branch \"%s\" must contain a seperator \"%s\"."
+}

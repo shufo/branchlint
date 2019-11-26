@@ -1,0 +1,25 @@
+policies:
+  - type: commit
+    spec:
+      headerLength: 89
+      dco: true
+      gpg: false
+      imperative: true
+      maximumOfOneCommit: true
+      requireCommitBody: true
+      conventional:
+        types:
+          - "type"
+        scopes:
+          - "scope"
+  - type: license
+    spec:
+      skipPaths:
+      - .git/
+      - .build*/
+      includeSuffixes:
+      - .ext
+      excludeSuffixes:
+      - .exclude-ext-prefix.ext
+      header: |
+        This is the contents of a license header.

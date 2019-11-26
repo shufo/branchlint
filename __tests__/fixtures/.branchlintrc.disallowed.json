@@ -1,0 +1,4 @@
+{
+  "disallowed": ["test/foobaz"],
+  "msgBranchDisallowed": "Pushing to \"%s\" is not allowed, use github-flow."
+}
