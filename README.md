@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/branchlint.svg)](https://badge.fury.io/js/branchlint) [![Actions Status](https://github.com/shufo/branchlint/workflows/Build%20and%20Test/badge.svg)](https://github.com/shufo/branchlint/actions)
+
 # branchlint
 
 A git branch linter to enforce branch naming convention
