@@ -20,7 +20,7 @@
     "chalk": "^3.0.0",
     "cosmiconfig": "^6.0.0",
     "esm": "^3.2.25",
-    "git-branch-is": "^3.0.0",
+    "git-branch-is": "^4.0.0",
     "lodash": "^4.17.15",
     "sprintf-js": "^1.1.2",
     "yargs": "^14.2.0"
